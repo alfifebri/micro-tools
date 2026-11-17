@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     "uuid generator",
   ],
   applicationName: "Micro Tools",
+  other: {
+    "google-adsense-account": "ca-pub-4779389636124558",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
