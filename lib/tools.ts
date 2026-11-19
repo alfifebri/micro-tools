@@ -5,7 +5,8 @@ export type ToolIconName =
   | "hash"
   | "qr"
   | "palette"
-  | "markdown";
+  | "markdown"
+  | "json";
 
 export type Tool = {
   slug: string;
@@ -87,5 +88,15 @@ export const tools: Tool[] = [
     category: "Text",
     href: "/tools/markdown-previewer",
     icon: "markdown",
+  },
+  {
+    slug: "json-formatter",
+    name: "JSON Formatter",
+    shortName: "json-formatter",
+    description:
+      "Beautify, minify, and validate JSON with clear error positions. Copy or download the result.",
+    category: "Formatting",
+    href: "/tools/json-formatter",
+    icon: "json",
   },
 ];

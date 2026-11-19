@@ -8,6 +8,7 @@ const productLinks = [
 
 const toolLinks = [
   { href: "/tools/json-to-ts", label: "JSON to TS" },
+  { href: "/tools/json-formatter", label: "JSON Formatter" },
   { href: "/tools/base64", label: "Base64" },
   { href: "/tools/jwt-decoder", label: "JWT Decoder" },
   { href: "/tools/uuid-generator", label: "UUID Generator" },

@@ -23,10 +23,12 @@ export const metadata: Metadata = {
     template: "%s · Micro Tools",
   },
   description:
-    "A fast, privacy-first collection of developer utilities. Convert JSON to TypeScript, encode Base64, decode JWTs, generate UUIDs and QR codes, build accessible color palettes, and preview Markdown — all in your browser.",
+    "A fast, privacy-first collection of developer utilities. Convert JSON to TypeScript, format JSON, encode Base64, decode JWTs, generate UUIDs and QR codes, build accessible color palettes, and preview Markdown — all in your browser.",
   keywords: [
     "developer tools",
     "json to typescript",
+    "json formatter",
+    "json beautifier",
     "base64 encoder",
     "jwt decoder",
     "uuid generator",

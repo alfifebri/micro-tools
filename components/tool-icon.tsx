@@ -2,6 +2,7 @@ import type { ComponentType, SVGProps } from "react";
 import {
   BinaryIcon,
   BracesIcon,
+  FileJsonIcon,
   HashIcon,
   KeyRoundIcon,
   PaletteIcon,
@@ -21,6 +22,7 @@ const iconMap: Record<
   qr: QrCodeIcon,
   palette: PaletteIcon,
   markdown: TerminalIcon,
+  json: FileJsonIcon,
 };
 
 export function ToolIcon({

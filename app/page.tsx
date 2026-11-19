@@ -7,6 +7,7 @@ import {
   ZapIcon,
 } from "@/components/icons";
 import { ToolExplorer } from "@/components/tool-explorer";
+import { UsageFaq } from "@/components/usage-faq";
 
 const features = [
   {
@@ -74,7 +75,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 flex items-center gap-3 font-mono text-xs text-muted-foreground">
-            <span>7 tools</span>
+            <span>8 tools</span>
             <span className="h-3 w-px bg-border" />
             <span>no sign-up</span>
             <span className="h-3 w-px bg-border" />
@@ -141,6 +142,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <UsageFaq />
     </>
   );
 }
