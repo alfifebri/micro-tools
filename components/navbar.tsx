@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CommandPalette } from "@/components/command-palette";
 import { TerminalIcon } from "@/components/icons";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -25,6 +26,8 @@ export function Navbar() {
         </Link>
 
         <nav className="flex items-center gap-1">
+          <CommandPalette />
+          <span className="mx-1 hidden h-5 w-px bg-border md:block" />
           <div className="hidden items-center gap-1 sm:flex">
             {navLinks.map((link) => (
               <Link

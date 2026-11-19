@@ -74,7 +74,7 @@ export default function Home() {
           </div>
 
           <div className="mt-10 flex items-center gap-3 font-mono text-xs text-muted-foreground">
-            <span>4 tools</span>
+            <span>7 tools</span>
             <span className="h-3 w-px bg-border" />
             <span>no sign-up</span>
             <span className="h-3 w-px bg-border" />

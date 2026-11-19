@@ -4,6 +4,9 @@ import {
   BracesIcon,
   HashIcon,
   KeyRoundIcon,
+  PaletteIcon,
+  QrCodeIcon,
+  TerminalIcon,
 } from "@/components/icons";
 import type { ToolIconName } from "@/lib/tools";
 
@@ -15,6 +18,9 @@ const iconMap: Record<
   binary: BinaryIcon,
   key: KeyRoundIcon,
   hash: HashIcon,
+  qr: QrCodeIcon,
+  palette: PaletteIcon,
+  markdown: TerminalIcon,
 };
 
 export function ToolIcon({

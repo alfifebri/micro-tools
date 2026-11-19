@@ -11,6 +11,9 @@ const toolLinks = [
   { href: "/tools/base64", label: "Base64" },
   { href: "/tools/jwt-decoder", label: "JWT Decoder" },
   { href: "/tools/uuid-generator", label: "UUID Generator" },
+  { href: "/tools/qr-code-generator", label: "QR Code Generator" },
+  { href: "/tools/color-palette", label: "Color Palette" },
+  { href: "/tools/markdown-previewer", label: "Markdown Previewer" },
 ];
 
 const legalLinks = [

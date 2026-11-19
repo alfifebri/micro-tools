@@ -1,4 +1,11 @@
-export type ToolIconName = "braces" | "binary" | "key" | "hash";
+export type ToolIconName =
+  | "braces"
+  | "binary"
+  | "key"
+  | "hash"
+  | "qr"
+  | "palette"
+  | "markdown";
 
 export type Tool = {
   slug: string;
@@ -50,5 +57,35 @@ export const tools: Tool[] = [
     category: "Generators",
     href: "/tools/uuid-generator",
     icon: "hash",
+  },
+  {
+    slug: "qr-code-generator",
+    name: "QR Code Generator",
+    shortName: "qr-code-generator",
+    description:
+      "Turn any text or URL into a customized QR code. Download PNG or copy it, all locally.",
+    category: "Generators",
+    href: "/tools/qr-code-generator",
+    icon: "qr",
+  },
+  {
+    slug: "color-palette",
+    name: "Color Palette & Contrast Checker",
+    shortName: "color-palette",
+    description:
+      "Build harmonious color palettes and verify WCAG contrast for text and UI colors.",
+    category: "Design",
+    href: "/tools/color-palette",
+    icon: "palette",
+  },
+  {
+    slug: "markdown-previewer",
+    name: "Markdown Live Previewer",
+    shortName: "markdown-previewer",
+    description:
+      "Write Markdown and see a clean, safe live preview. Copy the source or HTML and export as .md.",
+    category: "Text",
+    href: "/tools/markdown-previewer",
+    icon: "markdown",
   },
 ];
